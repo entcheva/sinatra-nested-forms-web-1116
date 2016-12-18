@@ -1,6 +1,6 @@
 class Pirate
 
-  attr_accessor :name, :weight, :height
+  attr_reader :name, :weight, :height
 
   PIRATES = []
 
@@ -14,5 +14,5 @@ class Pirate
   def self.all
     PIRATES
   end
-  
+
 end
